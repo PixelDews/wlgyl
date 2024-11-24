@@ -1,7 +1,7 @@
 import time
 import sys
 from colorama import init, Fore, Style
-
+import random
 init()
 
 def message(sender, msg, sec):
@@ -48,6 +48,9 @@ def menu(prompt, min, max):
             break
         else:
             print("\nInteger must be in range")
+
+
+
 
 def ellipsis(sec=0.75):
     time.sleep(sec)
